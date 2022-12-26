@@ -35,3 +35,5 @@ img.size()元素总个数
 img.dtype()图片数据类型
 img.shape()
 img.ndim() 通道数
+
+Opencv 读不到图片不会报错，对象会变为Nonetype
