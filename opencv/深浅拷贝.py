@@ -1,5 +1,8 @@
 # @Time: 2022/12/22 13:43
 # @File: 深浅拷贝.py
+'''
+浅拷贝，修改后源文件也会被修改
+'''
 import cv2
 import numpy as np
 img = cv2.imread(r'D:\xzc\python\opencv\cat.jpeg')
