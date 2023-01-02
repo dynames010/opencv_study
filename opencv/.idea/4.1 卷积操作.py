@@ -14,7 +14,7 @@ lihuacat = cv2.imread(r'D:\xzc\python\opencv\lihuacat.jpeg')
 
 #原始图片汇总每个点被平均，图像边模糊,kernel必须是float型
 kernel = np.ones((5,5),np.float32)/25
-dst = cv2.filter2D(lihuacat, -1,kernel)
+dst = cv2.filter2D(lihuacat, -1, kernel)
 
 #尝试不同卷积核
 kernel = np.array([[-1,-1,-1],[-1,8,-1],[-1,-1,-1]])
