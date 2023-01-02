@@ -15,6 +15,9 @@ M = cv2.getPerspectiveTransform(src,dst)
 
 #透视变换
 new = cv2.warpPerspective(guanggao,M,(400,200))
+
+cv2.namedWindow('img',cv2.WINDOW_NORMAL)
+cv2.resizeWindow('img',640,480)
 cv2.imshow('img',new)
 
 cv2.waitKey(0)
