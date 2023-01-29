@@ -12,7 +12,7 @@ method轮廓近似方法ApproximationMode
 
 返回contours和hierachy 返回轮廓和层级
 
-绘制轮廓drawContours
+绘制轮廓drawContours，非纯黑背景轮廓最外层序号为0
 
 '''
 import cv2
